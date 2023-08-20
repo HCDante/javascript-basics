@@ -17,11 +17,15 @@ const personaje = {
 
 console.log( personaje );
 console.log('Nombre', personaje.nombre );
+
+
 console.log('Nombre', personaje['nombre'] );
 console.log('Edad', personaje.edad );
 
 console.log('Coors', personaje.coords );
 console.log('Lat', personaje.coords.lat );
+
+console.log('No. trajes', personaje.trajes.length)
 
 console.log('No. Trajes', personaje.trajes.length );
 console.log('último traje', personaje.trajes[ personaje.trajes.length - 1 ] );

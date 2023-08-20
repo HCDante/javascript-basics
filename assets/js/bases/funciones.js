@@ -48,3 +48,10 @@ const getAleatorio2 = () => Math.random();
 
 
 console.log(  getAleatorio2()   );
+
+
+
+const getAleatorio3 = () => {
+    return Math.random() + 1;
+}
+console.log('Mi primera función tipo flecha ', getAleatorio3());;

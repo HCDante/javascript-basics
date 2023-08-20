@@ -23,6 +23,7 @@ let arregloCosas = [
     ]]
 ];
 
-// console.log({ arregloCosas });
-// console.log( arregloCosas[2] );
-console.log( arregloCosas[7][4][1] );
+arregloMegaman = arregloCosas [7];
+console.log(arregloMegaman[3]);
+
+console.log(arregloCosas[7][4][1]);
